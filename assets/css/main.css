@@ -1,0 +1,137 @@
+#es_service_list, .es_interval{
+    padding-left: 0 !important;
+}
+
+#es_service_list li, .es_interval li{
+    list-style: none !important;
+}
+
+#customer_details{
+    display: flex;
+    gap: 40px;
+}
+
+.referred_list{
+    padding-left: 0;
+}
+
+.referred_list li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.woocommerce-error a{
+    font-weight: bold !important;
+    color: #789101 !important;
+    text-decoration: underline !important;
+}
+
+.es_col_6{
+    width: 48%;
+}
+
+.woocommerce-MyAccount-navigation a, .woocommerce-account #main a{
+    color: #789101  !important;
+}
+
+.woocommerce-checkout .pill, .woocommerce-account .pill, .single-ticket .pill, .page-my-tickets .pill, .page-submit-ticket .pill{
+    display: none;
+}
+
+.woocommerce-account #main{
+    margin-top: 40px;
+}
+
+.woocommerce-billing-fields form-row label, .woocommerce-billing-fields .woocommerce-input-wrapper{
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    #customer_details{
+        display: block;
+    }
+
+    .es_col_6{
+        width: 100%;
+    }
+}
+
+/*****Business Form********/
+.es_row{
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.es_row, .es_col{
+    width: 100%;
+}
+
+#es_business_form{
+    position: relative;
+}
+
+#es_business_form .mask{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background: #000000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#es_business_form .mask p{
+    color: #FFFFFF;
+}
+
+.es_row, .es_col_50, .es_col{
+    display: flex;
+}
+
+.es_col_50{
+    width: 48%;
+}
+
+.es_label{
+    font-weight: bold;
+}
+
+.es_input{
+    height: 40px;
+}
+
+.es_col_50, .es_col{
+    flex-direction: column;
+}
+
+.toast.toast-warning{
+    background: brown;
+}
+
+.mask{
+    display: none;
+}
+
+.woocommerce-order-details  a{
+    color: black !important;
+}
+
+.woocommerce-order-received .woocommerce-order-details header{
+    background-image: none !important;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#wpas_ticketlist td a{
+    color: black !important;
+}
+
+
+a.ticket-link{
+    border: 1px #789101 solid !important;
+    padding: 5px !important;
+    margin-right: 10px !important;
+    float: right !important;
+}
